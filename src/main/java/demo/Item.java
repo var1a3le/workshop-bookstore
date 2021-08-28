@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class Item {
-    private int quantity;
-    private Basket basket;
+    private int amount;
+    private Book book;
 }
